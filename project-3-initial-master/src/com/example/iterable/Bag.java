@@ -6,7 +6,7 @@ public class Bag<T> implements Container<T> {
     private ArrayList<T> items = new ArrayList<T>();
     @Override
     public boolean isEmpty() {
-        return false;
+        return items.isEmpty();
     }
 
     @Override
